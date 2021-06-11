@@ -1,0 +1,24 @@
+@import 'variables';
+
+
+.heroWrap {
+  position: relative;
+  align-items: center!important;
+  display: flex!important;
+  background: #f8f9fa;
+  p {
+    color: $brandRed;
+  }
+  .heroTitle {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #FF0000;
+    opacity: .9;
+    }
+}
